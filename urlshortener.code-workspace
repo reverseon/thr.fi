@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "backend-go",
+			"path": "backend-go"
+		},
+		{
+			"name": "frontend-react",
+			"path": "frontend-react"
+		},
+		{
+			"name": "centralauth.thr.fi",
+			"path": "../../github/centralauth.thr.fi"
+		}
+	],
+	"settings": {}
+}

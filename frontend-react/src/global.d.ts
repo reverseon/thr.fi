@@ -1,0 +1,3 @@
+// purecss
+
+declare module 'purecss'
