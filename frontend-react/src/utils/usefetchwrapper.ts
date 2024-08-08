@@ -13,7 +13,7 @@ export function useFetchWrapper<T>(
             setFailed(true)
         }
         setLoading(false)
-    }).catch((e) => {
+    }).catch(() => {
         setFailed(true)
         setLoading(false)
     })

@@ -19,14 +19,14 @@ export function Home() {
 
   // Fetch Components
   const [user_info_loading, setUserInfoLoading] = useState<boolean>(true)
-  const [user_info_failed, setUserInfoFailed] = useState<boolean>(false)
+  const [_user_info_failed, setUserInfoFailed] = useState<boolean>(false)
   const [user_info, setUserInfo] = useState<{
     email: string,
     id: string
   } | undefined>(undefined)
 
-  const [shorten_loading, setShortenLoading] = useState<boolean>(false)
-  const [shorten_result, setShortenResult] = useState<{
+  const [_shorten_loading, _setShortenLoading] = useState<boolean>(false)
+  const [_shorten_result, setShortenResult] = useState<{
     "backhalf": string,
     "original_url": string,
     "password_protected": boolean,
